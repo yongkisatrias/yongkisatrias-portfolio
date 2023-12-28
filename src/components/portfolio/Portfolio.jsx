@@ -5,27 +5,27 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
   {
     id: 1,
-    title: "example 1",
-    img: "https://images.pexels.com/photos/19596017/pexels-photo-19596017/free-photo-of-cahaya-pria-orang-orang-wanita.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima asperiores distinctio exercitationem quae totam, eaque quasi quis soluta laudantium, nemo est, harum nulla unde. Repellat aperiam perferendis quos necessitatibus inventore.",
+    title: "React Commerce",
+    img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
   },
   {
     id: 2,
-    title: "example 2",
-    img: "https://images.pexels.com/photos/19588427/pexels-photo-19588427/free-photo-of-laut-pemandangan-matahari-terbenam-pantai.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima asperiores distinctio exercitationem quae totam, eaque quasi quis soluta laudantium, nemo est, harum nulla unde. Repellat aperiam perferendis quos necessitatibus inventore.",
+    title: "Next.js Blog",
+    img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
   },
   {
     id: 3,
-    title: "example 3",
-    img: "https://images.pexels.com/photos/19639369/pexels-photo-19639369/free-photo-of-laut-pemandangan-matahari-terbenam-pantai.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima asperiores distinctio exercitationem quae totam, eaque quasi quis soluta laudantium, nemo est, harum nulla unde. Repellat aperiam perferendis quos necessitatibus inventore.",
+    title: "Vanilla JS App",
+    img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
   },
   {
     id: 4,
-    title: "example 4",
-    img: "https://images.pexels.com/photos/19639245/pexels-photo-19639245/free-photo-of-laut-fajar-pemandangan-matahari-terbenam.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima asperiores distinctio exercitationem quae totam, eaque quasi quis soluta laudantium, nemo est, harum nulla unde. Repellat aperiam perferendis quos necessitatibus inventore.",
+    title: "Music App",
+    img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
   },
 ];
 
@@ -67,7 +67,7 @@ const Portfolio = () => {
 
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
-    damping: 40,
+    damping: 30,
   });
 
   return (
